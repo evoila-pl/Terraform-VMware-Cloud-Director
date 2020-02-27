@@ -9,7 +9,7 @@ provider "vcd" {
   allow_unverified_ssl = var.vcd_allow_unverified_ssl
 }
 
-# vDC Allocation
+# Org
 
 resource "vcd_org" "my-vcd-org" {
   name = var.vcd_org_name
@@ -19,6 +19,8 @@ resource "vcd_org" "my-vcd-org" {
   delete_force = "true"
   delete_recursive = "true"
 }
+
+# vDC Allocation
 
 resource "vcd_org_vdc" "my-vdc-alloc" {
   name = var.vcd_org_vdc_alloc_name
