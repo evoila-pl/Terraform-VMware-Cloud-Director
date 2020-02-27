@@ -1,0 +1,28 @@
+vcd_pass="CemeteryPolk@"
+vcd_url="https://your.vcd.com/api"
+
+vcd_org_name="Cemetery Polka"
+vcd_org_full_name="Uncle Vernon, Uncle Vernon, independent as a hog on ice."
+
+vcd_org_vdc_alloc_name="vDC-Alloc"
+vcd_org_vdc_alloc_description="vDC-Alloc for Cemetery Polka"
+vcd_org_vdc_alloc_compute_capacity_cpu="1000"
+vcd_org_vdc_alloc_compute_capacity_memory="1000"
+vcd_org_vdc_alloc_network_pool_name=""
+vcd_org_vdc_alloc_provider_vdc_name="Provider-vDC"
+vcd_org_vdc_alloc_storage_profile_name="SSD"
+vcd_org_vdc_alloc_storage_profile_limit="1024"
+
+vcd_org_vdc_payg_name="vDC-PaYG"
+vcd_org_vdc_payg_description="vDC-PaYG for Cemetery Polka"
+vcd_org_vdc_payg_network_pool_name=""
+vcd_org_vdc_payg_provider_vdc_name="Provider-vDC"
+vcd_org_vdc_payg_storage_profile_name="SSD"
+vcd_org_vdc_payg_storage_profile_limit="1024"
+
+vcd_edgegateway_name="Org-Edge"
+vcd_edgegateway_description="The org edge."
+vcd_edgegateway_configuration="compact"
+vcd_edgegateway_ip="192.168.1.2"
+vcd_edgegateway_gateway_ip="192.168.1.1"
+vcd_edgegateway_netmask_ip="255.255.255.0"
