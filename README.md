@@ -7,4 +7,6 @@ Here you'll find really clear examples, so you can easily use Hashicorp Terrafor
 
  * https://www.terraform.io/docs/providers/vcd/index.html
  
- #VMware #vCD #vCloud #Director
+## Tags:
+
+#VMware #vCD #vCloud #Director
